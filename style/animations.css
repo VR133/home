@@ -1,0 +1,28 @@
+@keyframes animatie-telefon
+{
+    0%{
+        background-position: center 840px, center top;
+    }
+    100%{
+        background-position: center 590px, center top;
+    }
+}
+
+@keyframes animatie-header-text {
+    0%{
+        position: relative;
+        top: 200px;
+        opacity: 0;
+        
+    }
+    50%
+    {
+        opacity: 0.3; 
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        opacity: 1;
+        
+    }
+}

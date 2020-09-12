@@ -1,0 +1,299 @@
+@media screen and (max-width:940px)
+{
+    .butoane .btn-1, .butoane .btn-2
+    {
+        display: block;
+        width: 202px;
+        margin-top: 20px;
+    }
+    .interfata .imagini
+    {
+        left: -20%;
+        width: 140%;
+    }
+    .foother-col
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    .foother-col .foother-menu
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .foother-col .foother-menu div
+    {
+        padding: 0px 20px;
+    }
+    .foother-col .foother-menu h1 
+    {
+        margin-top: 25px;
+    }
+    .foother-col .foother-menu ul
+    {
+        margin-top: 10px;
+    }
+    .foother-last
+    {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    .foother-col .aliniere-centru
+    {
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    #foother-mark
+    {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:854px)
+{
+    .suntem-oriunde .aliniere-dr div:last-child img
+    {
+        margin-top: 20px;
+    }
+    .suntem-oriunde .aliniere-dr div a img
+    {
+        padding: 0 0 0;  
+    }
+    .navigare ul
+    {
+        display: none;
+    }
+    .navigare
+    {
+        grid-template-columns: 1fr 3fr 1fr;
+        
+    }
+    .navigare div
+    {
+        text-align: left;
+    }
+    .navigare div i
+    {
+        margin-left: 25px;
+    }
+    .navigare div:nth-child(2)
+    {
+        text-align: center;
+    }
+    .interfata .imagini
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #imagine1, #imagine2
+    {
+        display: none;
+    }
+    .block-inf
+    {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin-top: 150px;
+        margin-bottom: 10px;
+    }
+    .block-inf .aliniere-dr, .aliniere-st
+    {
+        padding: 0px 20px;
+    }
+    .block-inf .aliniere-dr *, .aliniere-st *
+    {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px 0px;
+    }
+    .protection
+    {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        margin-top: 140px;
+    }
+    .protection #imagine-iphone
+    {
+        text-align: center;
+    }
+    .protection .imagine
+    {
+        left: 0px;
+        width: 70%;
+    }
+    .protection .aliniere-or > h1, .protection .aliniere-or > p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+    }
+    .protection .aliniere-or
+    {
+        padding: 0px 20px;
+    }
+    .protection h1 br 
+    {
+        display: none;
+        padding: 0px;
+    }
+    .protection .butoane
+    {
+        max-width: 493px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .protection .imagine
+    {
+        top: 50px;
+    }
+    .butoane .btn-1, .butoane .btn-2
+    {
+        display: inline-block;
+       
+    }
+    .butoane .btn-2
+    {
+        margin-left: 20px;
+    }
+    .protection
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .suntem-oriunde
+    {
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .suntem-oriunde h1 br 
+    {
+        display: none;
+    }
+    .suntem-oriunde .aliniere-dr
+    {
+        padding: 0px 20px;
+    }
+    .suntem-oriunde .aliniere-dr *
+    {
+        padding: 0px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .suntem-oriunde .imagine
+    {
+        right: 0px;
+        top: 50px;
+        width: 85%;
+    }
+    .suntem-oriunde .map-box
+    {
+        text-align: center;
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width:737px)
+{
+    .header h1
+    {
+        padding: 50px 20px;
+    }
+    .header .fundal .watch-button 
+    {
+        margin-top: 40px;
+    }
+    .input-1
+    {
+        width: 80vw;
+        left: 0px;
+
+    }
+    .btn-green
+    {
+        display: block;
+        margin-top: 25px;
+        left: 0px;
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    .left
+    {
+        left: 0px;
+    }
+}
+@media screen and (max-width:640px)
+{
+    .feed-backs
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .feed-backs .arr-st
+    {
+        display: none;
+    }
+    .feed-backs .arr-dr
+    {
+        display: none;
+    }
+    .feed-backs .centru .user-active 
+    {
+        height: 90px;
+    }
+    .feed-backs .centru .user-inactive
+    {
+        height: 60px;
+    }
+}
+@media screen and (max-width:430px)
+{
+    .header .fundal
+    {
+        background-position: center 680px, center top;
+    }
+    .header .fundal .watch-button 
+    {
+        border: 1px solid rgba( 15.761, 1.103, -4.086, 0.6);
+    }
+    .butoane .btn-2
+    {
+        margin-left: 0px;
+    }
+    .butoane .btn-1
+    {
+        margin-right: 0px;
+    }
+    @keyframes animatie-telefon
+    {
+        0%{
+            background-position: center 840px, center top;
+        }
+        100%{
+            background-position: center 680px, center top;
+        }
+    }
+}
+@media screen and (max-width:385px)
+{
+    .header .fundal
+    {
+        background-position: center 700px, center top;
+        background-size: 280px ,cover;
+    }
+    @keyframes animatie-telefon
+    {
+        0%{
+            background-position: center 840px, center top;
+        }
+        100%{
+            background-position: center 700px, center top;
+        }
+    }
+}
